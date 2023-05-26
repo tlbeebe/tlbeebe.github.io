@@ -1,5 +1,5 @@
 # Easy Team Website
 
-###Photo of our Robot
+###One photo of our Robot
 
 <img src="Robot.png" alt="Robit" />
