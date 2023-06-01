@@ -6,6 +6,6 @@
 
 ### This is the video of our robot displayed on our website
 
-<video width="600" height="400" controls>
-  	<source src="Video.mp4" type="video/mp4">
-     </video> 
+<video controls>
+  	<source src="Video.mp4" type="video/mp4" alt = "Video doesn't work in README">
+</video> 
