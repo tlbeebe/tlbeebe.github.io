@@ -18,8 +18,16 @@
         border: thick solid black;
 	      text-align: center;
       }
-		</style>
+      center {
+ 	 display: block;
+ 	 margin-left: auto;
+ 	 margin-right: auto;
+ 	 width: 50%;
+      }
+    </style>
+	  
   </head>
+	
   <body>
     <h1>Team Mates Github</h1>
     <p>A photo of our robot</p>
@@ -27,8 +35,9 @@
      height="400"/>
 	  
     <p>A video of our robot following a line</p>
-    <img src="Video.mov" alt="Robit vid" class="center" width="500" 
-     height="400"/>
+    <video width="600" height="400" controls>
+  	<source src="Video.mp4" type="video/mp4">
+     </video> 
   </body>
 </html>
 
