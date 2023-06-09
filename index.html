@@ -67,18 +67,26 @@
      <!--Answering questions in this section-->
 	  
     <h1>What is PID control?</h1>
-   	 <p>PID control is a system of managing an output loop. 
+   	 <p>PID control is a system of managing a feedback loop. 
 	    It stands for Proportional, Integral, Derivative.
+	    The P value effects the current error. I accounts for past values,
+	    and D estimates future trends. The P and I values decrease the 
+	    function rise time, while D attenuates it. 
+	  </p>
+    <h1>What were our final PID values?</h1>
+	  <p>
 	    We chose a P value of XX, an I value of YY, and a D value of ZZ.
-	    These values worked best for us due to our long chassis allowing 
-	    our vehicle to have fast responses to the track. A small P value
-	    creates a fast reaction time, which limited our need for a large 
-	    I value. Our D value was also small, as we did not need to attenuate
-	    our small P and I values by much.
+	    These values worked best for us as they allowed our vehicle
+	    to have fast responses to the track without overcorrecting. A relatively 
+	    large P value creates a fast reaction time, which limited our need for a large 
+	    I value. Our D value was relatively small, as we did not need to attenuate
+	    our P and I values by much.
 	  </p>
 	  
     <h1>How did you adjust Speed and PID for the different tracks?</h1>
-   	 <p> We'll discuss that here when we need to.
+   	 <p> We used larger P and D values on crazier tracks with a low speed, but we  
+	     reduced them on the straighter track, as the straighter track required less
+	     pathfinding and more speed.
 	 </p>
 	  
   </body>
